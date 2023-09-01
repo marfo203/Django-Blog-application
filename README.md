@@ -10,7 +10,8 @@ This is a simple blog application written with Python and Django. The applicatio
 * Change password via email link
 
   ## Setup
-  1. Clone the repo 
+  1. Clone the repo
+  2. Run `python manage.py migrate` to create the database
   3. Create a new admin user from django/django_project with
      `python manage.py createsuperuser`
   4. Add `db.sqlite3` to .gitignore
